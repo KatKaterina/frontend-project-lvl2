@@ -11,6 +11,7 @@ const getDiff = (object1, object2) => {
 
   /* const keys = _.sortBy([...keys1, ... keys2]);
   /* console.log(keys); */
+
   const keys = _.sortBy(_.uniq([...keys1, ...keys2]));
   const result = keys.reduce((acc, key) => {
     const value1 = object1[key];
