@@ -4,10 +4,13 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "description": "[![Actions Status](https://github.com/KatKaterina/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/KatKaterina/frontend-project-lvl2/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --bail"
   },
   "repository": {
     "type": "git",
@@ -21,11 +24,16 @@
   "type": "module",
   "homepage": "https://github.com/katkaterina/frontend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^8.3.0"
+    "commander": "^8.3.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@jest/globals": "^27.3.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.3",
+    "jest": "^27.3.1",
+    "jest-cli": "^27.3.1"
   }
 }
