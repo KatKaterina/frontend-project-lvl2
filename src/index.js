@@ -1,9 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
+import parse from './parsers.js';
 
 const getData = (file) => fs.readFileSync(path.resolve(process.cwd(), file.trim()), 'utf-8');
-/* const getFormat = (file) => path.extname(file).slice(1); */
+const getFormat = (file) => path.extname(file).slice(1);
 
 const getDiff = (object1, object2) => {
   const keys1 = Object.keys(object1);
@@ -47,12 +48,20 @@ const getDiff = (object1, object2) => {
 const genDiff = (file1, file2) => {
   const dataFile1 = getData(file1);
   const dataFile2 = getData(file2);
+  const format1 = getFormat(file1);
+  const format2 = getFormat(file2);
+
+  const obj1 = parse(dataFile1, format1);
+  const obj2 = parse(dataFile2, format2);
 
   /* console.log(dataFile1);
   console.log(dataFile2); */
 
-  const obj1 = JSON.parse(dataFile1);
-  const obj2 = JSON.parse(dataFile2);
+  /* const obj1 = JSON.parse(dataFile1);
+  const obj2 = JSON.parse(dataFile2); */
+
+  /* const obj1 = yaml.load(dataFile1);
+  const obj2 = yaml.load(dataFile2); */
 
   /* console.log(obj1);
   console.log(obj2); */
