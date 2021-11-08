@@ -9,3 +9,6 @@
 
 Различия между двумя плоскими yml-файлами
 [![asciicast](https://asciinema.org/a/jwg9262YfS3FWaimicNzHOukg.svg)](https://asciinema.org/a/jwg9262YfS3FWaimicNzHOukg)
+
+Пример работы пакета с древовидной структурой файлов
+[![asciicast](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC.svg)](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC)
