@@ -65,17 +65,10 @@ const genDiff = (file1, file2, formatName) => {
   const dataFile2 = getData(file2);
   const format1 = getFormat(file1);
   const format2 = getFormat(file2);
-
   const obj1 = parse(dataFile1, format1);
   const obj2 = parse(dataFile2, format2);
-
-  /* console.log(obj1);
-  console.log(obj2); */
   const result = getDiff(obj1, obj2);
-  /* console.log(result); */
   return getFormatedTree(result, formatName);
-  /* const resultToStr = result.join('\n');
-  return `{\n${resultToStr}\n}`; */
 };
 
 export default genDiff;

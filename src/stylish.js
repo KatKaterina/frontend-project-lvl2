@@ -10,13 +10,8 @@ const stringView = (value, dp) => {
     const result = Object
       .entries(valueCurrent)
       .map(([key, val]) => `${indent.repeat(depth + 8)}${key}: ${iter(val, depth + 4)}`);
-    return [
-      '{',
-      ...result,
-      `${indent.repeat(depth + 4)}}`,
-    ].join('\n');
+    return ['{', ...result, `${indent.repeat(depth + 4)}}`].join('\n');
   };
-
   return iter(value, dp);
 };
 
