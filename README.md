@@ -15,3 +15,6 @@
 
 Пример работы пакета при выборе формата plain (вывод результата в плоском формате)
 [![asciicast](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l.svg)](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l)
+
+Пример работы пакета - вывод результата в формате json
+[![asciicast](https://asciinema.org/a/vmWc6lpKFTDHgX89Yunkj7uxC.svg)](https://asciinema.org/a/vmWc6lpKFTDHgX89Yunkj7uxC)
