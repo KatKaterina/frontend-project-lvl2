@@ -36,27 +36,6 @@ const getDiff = (object1, object2) => {
       key, type: 'change', value1, value2,
     };
   });
-
-  /* const keys = _.sortBy(_.uniq([...keys1, ...keys2]));
-  const result = keys.reduce((acc, key) => {
-    const value1 = object1[key];
-    const value2 = object2[key];
-    if (!_.has(object1, key)) {
-      acc.push(`+ ${key}: ${value2}`);
-      return acc;
-    }
-    if (!_.has(object2, key)) {
-      acc.push(`- ${key}: ${value1}`);
-      return acc;
-    }
-    if (!_.isEqual(value1, value2)) {
-      acc.push(`- ${key}: ${value1}`);
-      acc.push(`+ ${key}: ${value2}`);
-      return acc;
-    }
-    acc.push(`  ${key}: ${value1}`);
-    return acc;
-  }, []); */
   return result;
 };
 
