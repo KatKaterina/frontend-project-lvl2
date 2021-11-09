@@ -12,3 +12,6 @@
 
 Пример работы пакета с древовидной структурой файлов
 [![asciicast](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC.svg)](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC)
+
+Пример работы пакета при выборе формата plain (вывод результата в плоском формате)
+[![asciicast](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l.svg)](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l)

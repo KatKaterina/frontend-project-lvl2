@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import _ from 'lodash';
 import parse from './parsers.js';
-import stylish from './stylish.js';
+import getFormatedTree from './formatters/index.js';
 
 const getData = (file) => fs.readFileSync(path.resolve(process.cwd(), file.trim()), 'utf-8');
 const getFormat = (file) => path.extname(file).slice(1);
@@ -60,16 +60,7 @@ const getDiff = (object1, object2) => {
   return result;
 };
 
-const getFormatedTree = (tree, format) => {
-  switch (format) {
-    case 'json':
-      return JSON.stringify(tree);
-    default:
-      return stylish(tree);
-  }
-};
-
-const genDiff = (file1, file2, format) => {
+const genDiff = (file1, file2, formatName) => {
   const dataFile1 = getData(file1);
   const dataFile2 = getData(file2);
   const format1 = getFormat(file1);
@@ -82,7 +73,7 @@ const genDiff = (file1, file2, format) => {
   console.log(obj2); */
   const result = getDiff(obj1, obj2);
   /* console.log(result); */
-  return getFormatedTree(result, format);
+  return getFormatedTree(result, formatName);
   /* const resultToStr = result.join('\n');
   return `{\n${resultToStr}\n}`; */
 };

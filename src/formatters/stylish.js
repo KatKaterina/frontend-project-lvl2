@@ -24,7 +24,6 @@ const transformTree = (data) => {
   const indent = ' ';
 
   const iter = (tree, depth) => tree.map((node) => {
-    console.log(node.type);
     switch (node.type) {
       case 'add':
         return `${indent.repeat(depth + 2)}+ ${node.key}: ${stringView(node.val, depth)}\n`;
