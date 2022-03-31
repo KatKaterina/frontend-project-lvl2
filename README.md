@@ -13,22 +13,31 @@ This program compares two configuration files and shows a difference.
     - plain (displays the difference as a list)
     - stylish (displays the differences i a tree)
  - options:
-    -V, --version        output the version number
-    -f, --format(type)   output format of differences (default: "stylish")
-    -h, --help           display help for command
+    - -V, --version        output the version number
+    - -f, --format(type)   output format of differences (default: "stylish")
+    - -h, --help           display help for command
 
-
-<h3>Differences between two flat json files</h3>
+<div>
+   <h3>Differences between two flat json files</h3>
+</div>
 [![asciicast](https://asciinema.org/a/pdDiDrVx19ZjmJz0xthXiZZOY.svg)](https://asciinema.org/a/pdDiDrVx19ZjmJz0xthXiZZOY)
 
-<h3>Differences between two flat yml files</h3>
+<div>
+   <h3>Differences between two flat yml files</h3>
+</div>
 [![asciicast](https://asciinema.org/a/jwg9262YfS3FWaimicNzHOukg.svg)](https://asciinema.org/a/jwg9262YfS3FWaimicNzHOukg)
 
-<h3>An example of how a package works with a tree file structure</h3>
+<div>
+   <h3>An example of how a package works with a tree file structure</h3>
+</div>
 [![asciicast](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC.svg)](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC)
 
-<h3>An example of how the package works when choosing the plain format (output of the result in a flat format)</h3>
+<div>
+   <h3>An example of how the package works when choosing the plain format (output of the result in a flat format)</h3>
+</div>
 [![asciicast](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l.svg)](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l)
 
-<h3>Example - output of the result in json format</h3>
+<div>
+   <h3>Example - output of the result in json format</h3>
+</div>
 [![asciicast](https://asciinema.org/a/vmWc6lpKFTDHgX89Yunkj7uxC.svg)](https://asciinema.org/a/vmWc6lpKFTDHgX89Yunkj7uxC)
