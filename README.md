@@ -20,24 +20,29 @@ This program compares two configuration files and shows a difference.
 <div>
    <h3>Differences between two flat json files</h3>
 </div>
+
 [![asciicast](https://asciinema.org/a/pdDiDrVx19ZjmJz0xthXiZZOY.svg)](https://asciinema.org/a/pdDiDrVx19ZjmJz0xthXiZZOY)
 
 <div>
    <h3>Differences between two flat yml files</h3>
 </div>
+
 [![asciicast](https://asciinema.org/a/jwg9262YfS3FWaimicNzHOukg.svg)](https://asciinema.org/a/jwg9262YfS3FWaimicNzHOukg)
 
 <div>
    <h3>An example of how a package works with a tree file structure</h3>
 </div>
+
 [![asciicast](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC.svg)](https://asciinema.org/a/HnravduGL4JSYdZgzoooGO2sC)
 
 <div>
    <h3>An example of how the package works when choosing the plain format (output of the result in a flat format)</h3>
 </div>
+
 [![asciicast](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l.svg)](https://asciinema.org/a/iia09umfBtbxwtZHRuXLlo71l)
 
 <div>
    <h3>Example - output of the result in json format</h3>
 </div>
+
 [![asciicast](https://asciinema.org/a/vmWc6lpKFTDHgX89Yunkj7uxC.svg)](https://asciinema.org/a/vmWc6lpKFTDHgX89Yunkj7uxC)
