@@ -12,7 +12,7 @@ This program compares two configuration files and shows a difference.
  - available formats for displaying differences:
     - json (displays the difference as a json)
     - plain (displays the difference as a list)
-    - stylish (displays the differences i a tree)
+    - stylish (displays the differences as a tree)
  - options:
     - -V, --version        output the version number
     - -f, --format(type)   output format of differences (default: "stylish")
