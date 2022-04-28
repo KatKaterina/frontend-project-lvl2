@@ -18,6 +18,7 @@ This program determines the difference between two data structures.
     - -f, --format(type)   output format of differences (default: "stylish")
     - -h, --help           display help for command
 
+The main technologies used: JS/Node.js/Jest
 
 <h3>Differences between two flat json files</h3>
 
