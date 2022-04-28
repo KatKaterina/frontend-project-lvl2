@@ -6,7 +6,7 @@
 
 <h3>gendiff</h3>
 
-This program compares two configuration files and shows a difference.
+This program determines the difference between two data structures.
 
  - supports json and yaml formats
  - available formats for displaying differences:
